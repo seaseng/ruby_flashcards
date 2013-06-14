@@ -38,5 +38,3 @@ end
 
 
 end
-
-x = Filemanager.new
