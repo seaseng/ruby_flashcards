@@ -14,6 +14,12 @@ class Game_controller
     puts "Welcome to Ruby Flashcards.  Remember you're not smart."
     puts "Enter 'exit' or 'quit' to terminate program at anytime."
     puts
+    go_through_flashcard_deck #method to iterate through flashcard deck
+    
+  end
+
+
+  def go_through_flashcard_deck
     flashcard_array.shuffle.each do |flashcard|
       display_question(flashcard) 
       puts "Answer: "
@@ -22,13 +28,22 @@ class Game_controller
       if check_answer(user_answer, flashcard) == true
         puts "Correct!!! You're a decent human being."
         puts
+        increment_correct_attempts(flashcard) #method call
       else
         puts "Incorrect, you are not worthy of love."
         puts
+        increment_wrong_attempts(flashcard)
         redo
       end
     end
-    
+  end
+
+  def increment_wrong_attempts(flashcard)
+    flashcard.wrong_attempts = flashcard.wrong_attempts + 1
+  end
+
+  def increment_correct_attempts(flashcard)
+    flashcard.correct_attempts = flashcard.correct_attempts + 1
   end
 
   def display_question(flashcard)
