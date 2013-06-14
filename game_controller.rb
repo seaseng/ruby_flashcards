@@ -32,9 +32,15 @@ class Game_controller
       else
         puts "Incorrect, you are not worthy of love."
         puts
+
         flashcard.increment_wrong_attempts
         puts "Number of attempts: #{flashcard.wrong_attempts}"
-        redo
+        if flashcard.wrong_attempts > 3
+          puts "You're too dumb, moving on."
+          next #skips the rest of the loop and starts at beginning of loop (each)
+        else
+          redo #retries the current iteration of the loop
+        end
       end
     end
   end
