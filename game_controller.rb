@@ -1,7 +1,3 @@
-require_relative 'flashcards'
-require_relative 'filemanager'
-require 'cowsay'
-
 class Game_controller
 
   attr_reader :flashcard_array
@@ -64,7 +60,7 @@ class Game_controller
     
 end
 
-file_manager = FileManager.new
-# test = Flashcard.new("How do you feel?", "good")
-game = Game_controller.new(file_manager.flashcards)
-game.run_game!
+# file_manager = FileManager.new
+# # test = Flashcard.new("How do you feel?", "good")
+# game = Game_controller.new(file_manager.flashcards)
+# game.run_game!
