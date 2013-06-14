@@ -20,7 +20,10 @@ class Game_controller
       flashcard.display_question
       puts "Answer: "
       user_answer = gets.chomp
-      return if user_exit?(user_answer)
+      if user_exit?(user_answer)
+        @flashcard_array.sort_by! { |flashcard| flashcard.wrong_attempts }.reverse!
+        return
+      end
       if flashcard.check_answer(user_answer) == true
         puts "Correct!!! You're a decent human being."
         puts
@@ -45,6 +48,7 @@ class Game_controller
 
   def user_exit?(user_answer)
     user_answer.downcase == 'quit' || user_answer.downcase == 'exit' || user_answer.downcase == "\n"
+    
   end
 
 
