@@ -9,14 +9,13 @@ def argument_handler
   # honestly this is here use the local variable for ARGV calls
   # it's small and another instance variable here seems a bit odd
 
-  file_manager = FileManager.new
 
 
 
   if ARGV.empty?
     # puts "If you need help, type help for a list of commands... \nor yell 'ANNNE!! ANNNE!!!' loudly"
     if File.exist?('flashcard_samples.txt')
-      puts "yes"
+      file_manager = FileManager.new
       game = Game_controller.new(file_manager.flashcards)
       game.run_game!
     # puts "YAML Loaded"
@@ -33,7 +32,7 @@ else
   # when  "help"      then list.print_help
   # when  "delete"    then list.delete_task(ARGV[1].to_i-1)
   # when  "list"      then list.print_list
-  when  "load"      then file_manager.((ARGV[1]))
+  when  "load"      then file_manager = FileManager.new(ARGV[1])
     # when  "add"       then list.add_task(ARGV[1..-1].join(' '))
     # when  "complete"  then list.complete_task(ARGV[1].to_i-1)
   else puts "Unknown command, please try again or type 'help'."

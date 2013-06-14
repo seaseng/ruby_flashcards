@@ -5,8 +5,8 @@
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
-  question: ! '  question: To create a second name for the variable or method.'
-  answer: ! '  answer: alias'
+  question: ! '  question: ! ''---'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
@@ -16,11 +16,11 @@
   correct_attempts: 0
 - !ruby/object:Flashcard
   question: ! '- !ruby/object:Flashcard'
-  answer: ! '  question: A command that appends two or more objects together.'
+  answer: ! '  question: ! ''  question: ! ''''---'''''''
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
-  question: ! '  answer: and'
+  question: ! '  answer: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
   answer: ! '  wrong_attempts: 0'
   wrong_attempts: 0
   correct_attempts: 0
@@ -30,88 +30,8 @@
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
-  question: ! '  question: Designates code that must be run unconditionally at the
-    beginning of the'
-  answer: ! '    program before any other.'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: BEGIN'
-  answer: ! '  wrong_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: Delimits a "begin" block of code, which can allow the use
-    of while and'
-  answer: ! '    until in modifier position with multi-line statements.'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: begin'
-  answer: ! '  wrong_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: Gives an unconditional termination to a code block, and
-    is usually placed'
-  answer: ! '    with an argument.'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: break'
-  answer: ! '  wrong_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: starts a case statement; this block of code will output
-    a result and end'
-  answer: ! '    when it''s terms are fulfilled, which are defined with when or else.'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: case'
-  answer: ! '  wrong_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: Opens a class definition block, which can later be reopened
-    and added'
-  answer: ! '    to with variables and even functions.'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: class'
-  answer: ! '  wrong_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: Used to define a function.'
-  answer: ! '  answer: def'
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
@@ -121,150 +41,13 @@
   correct_attempts: 0
 - !ruby/object:Flashcard
   question: ! '- !ruby/object:Flashcard'
-  answer: ! '  question: A boolean logic function that asks whether or not a targeted
-    expression'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
-  question: ! '    refers to anything recognizable in Ruby; i.e. literal object, local
-    variable that'
-  answer: ! '    has been initialized, method name visible from the current scope,
-    etc.'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: defined?'
-  answer: ! '  wrong_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: Paired with end, this can delimit a code block, much like
-    curly braces;'
-  answer: ! '    however, curly braces retain higher precedence.'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: do'
-  answer: ! '  wrong_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: Gives an "otherwise" within a function, if-statement, or
-    for-loop, i.e.'
-  answer: ! '    if cats = cute, puts "Yay!" else puts "Oh, a cat."'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: else'
-  answer: ! '  wrong_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: Much like else, but has a higher precedence, and is usually
-    paired with'
-  answer: ! '    terms.'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: elsif'
-  answer: ! '  wrong_attempts: 4'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: Designates, via code block, code to be executed just prior
-    to program'
-  answer: ! '    termination.'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: END'
-  answer: ! '  wrong_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: Marks the end of a while, until, begin, if, def, class,
-    or other keyword-based,'
-  answer: ! '    block-based construct.'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: end'
-  answer: ! '  wrong_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: Marks the final, optional clause of a begin/end block,
-    generally in cases'
-  answer: ! '    where the block also contains a rescue clause. The code in this term''s
-    clause'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '    is guaranteed to be executed, whether control flows to a rescue
-    block or not.'
-  answer: ! '  answer: ensure'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  wrong_attempts: 3'
-  answer: ! '  correct_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '- !ruby/object:Flashcard'
-  answer: ! '  question: denotes a special object, the sole instance of FalseClass.
-    false and nil'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '    are the only objects that evaluate to Boolean falsehood in Ruby
-    (informally, that'
-  answer: ! '    cause an if condition to fail.)'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: ''false'''
-  answer: ! '  wrong_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: A loop constructor; used in for-loops.'
-  answer: ! '  answer: for'
+  question: ! '  answer: ! ''  question: ! ''''  question: To create a second name
+    for the variable'
+  answer: ! '    or method.'''''''
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
@@ -274,11 +57,11 @@
   correct_attempts: 0
 - !ruby/object:Flashcard
   question: ! '- !ruby/object:Flashcard'
-  answer: ! '  question: Ruby''s basic conditional statement constructor.'
+  answer: ! '  question: ! ''  answer: ! ''''  answer: alias'''''''
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
-  question: ! '  answer: if'
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
   answer: ! '  wrong_attempts: 0'
   wrong_attempts: 0
   correct_attempts: 0
@@ -288,104 +71,8 @@
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
-  question: ! '  question: Used with for, helps define a for-loop.'
-  answer: ! '  answer: in'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  wrong_attempts: 4'
-  answer: ! '  correct_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '- !ruby/object:Flashcard'
-  answer: ! '  question: Opens a library, or module, within a Ruby Stream.'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: module'
-  answer: ! '  wrong_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: Bumps an iterator, or a while or until block, to the next
-    iteration, unconditionally'
-  answer: ! '    and without executing whatever may remain of the block.'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: next'
-  answer: ! '  wrong_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: A special "non-object"; it is, in fact, an object (the
-    sole instance of'
-  answer: ! '    NilClass), but connotes absence and indeterminacy. nil and false
-    are the only'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '    two objects in Ruby that have Boolean falsehood (informally, that
-    cause an if'
-  answer: ! '    condition to fail).'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: nil'
-  answer: ! '  wrong_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: ! ''Boolean negation. i.e. not true # false, not 10 # false,
-    not false'
-  answer: ! '    # true.'''
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: not'
-  answer: ! '  wrong_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: Boolean or. Differs from || in that or has lower precedence.'
-  answer: ! '  answer: or'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  wrong_attempts: 4'
-  answer: ! '  correct_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '- !ruby/object:Flashcard'
-  answer: ! '  question: Causes unconditional re-execution of a code block, with the
-    same parameter'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '    bindings as the current execution.'
-  answer: ! '  answer: redo'
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
@@ -395,18 +82,11 @@
   correct_attempts: 0
 - !ruby/object:Flashcard
   question: ! '- !ruby/object:Flashcard'
-  answer: ! '  question: Designates an exception-handling clause that can occur either
-    inside a'
+  answer: ! '  question: ! ''  question: ! ''''  wrong_attempts: 0'''''''
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
-  question: ! '    begin<code>/<code>end block, inside a method definition (which
-    implies begin),'
-  answer: ! '    or in modifier position (at the end of a statement).'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: rescue'
+  question: ! '  answer: ! ''  answer: ! ''''  correct_attempts: 0'''''''
   answer: ! '  wrong_attempts: 0'
   wrong_attempts: 0
   correct_attempts: 0
@@ -416,15 +96,8 @@
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
-  question: ! '  question: Inside a rescue clause, causes Ruby to return to the top
-    of the enclosing'
-  answer: ! '    code (the begin keyword, or top of method or block) and try executing
-    the code'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '    again.'
-  answer: ! '  answer: retry'
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
@@ -434,20 +107,38 @@
   correct_attempts: 0
 - !ruby/object:Flashcard
   question: ! '- !ruby/object:Flashcard'
-  answer: ! '  question: Inside a method definition, executes the ensure clause, if
-    present, and'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
-  question: ! '    then returns control to the context of the method call. Takes an
-    optional argument'
-  answer: ! '    (defaulting to nil), which serves as the return value of the method.
-    Multiple'
+  question: ! '  answer: ! ''  question: ! ''''- !ruby/object:Flashcard'''''''
+  answer: ! '  wrong_attempts: 0'
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
-  question: ! '    values in argument position will be returned in an array.'
-  answer: ! '  answer: return'
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''  question: A command that appends
+    two or more objects'
+  answer: ! '    together.'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
@@ -457,18 +148,11 @@
   correct_attempts: 0
 - !ruby/object:Flashcard
   question: ! '- !ruby/object:Flashcard'
-  answer: ! '  question: The "current object" and the default receiver of messages
-    (method calls)'
+  answer: ! '  question: ! ''  question: ! ''''  answer: and'''''''
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
-  question: ! '    for which no explicit receiver is specified. Which object plays
-    the role of self'
-  answer: ! '    depends on the context.'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: self'
+  question: ! '  answer: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
   answer: ! '  wrong_attempts: 0'
   wrong_attempts: 0
   correct_attempts: 0
@@ -478,84 +162,8 @@
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
-  question: ! '  question: Called from a method, searches along the method lookup
-    path (the classes'
-  answer: ! '    and modules available to the current object) for the next method
-    of the same name'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '    as the one being executed. Such method, if present, may be defined
-    in the superclass'
-  answer: ! '    of the object''s class, but may also be defined in the superclass''s
-    superclass'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '    or any class on the upward path, as well as any module mixed in
-    to any of those'
-  answer: ! '    classes.'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: super'
-  answer: ! '  wrong_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: Optional component of conditional statements (if, unless,
-    when). Never'
-  answer: ! '    mandatory, but allows for one-line conditionals without semi-colons.'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: then'
-  answer: ! '  wrong_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: The sole instance of the special class TrueClass. true
-    encapsulates Boolean'
-  answer: ! '    truth; however, <emph>all</emph> objects in Ruby are true in the
-    Boolean sense'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '    (informally, they cause an if test to succeed), with the exceptions
-    of false and'
-  answer: ! '    nil.'
-  wrong_attempts: 3
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: ''true'''
-  answer: ! '  wrong_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  correct_attempts: 0'
-  answer: ! '- !ruby/object:Flashcard'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  question: Undefines a given method, for the class or module in which
-    it''s called.'
-  answer: ! '    If the method is defined higher up in the lookup path (such as by
-    a superclass),'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '    it can still be called by instances classes higher up.'
-  answer: ! '  answer: undef'
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
@@ -565,44 +173,11 @@
   correct_attempts: 0
 - !ruby/object:Flashcard
   question: ! '- !ruby/object:Flashcard'
-  answer: ! '  question: The negative equivalent of if. i.e. unless y.score > 10 puts
-    "Sorry; you'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
-  question: ! '    needed 10 points to win." end.'
-  answer: ! '  answer: unless'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  wrong_attempts: 0'
-  answer: ! '  correct_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '- !ruby/object:Flashcard'
-  answer: ! '  question: ! ''The inverse of while: executes code until a given condition
-    is true,'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '    i.e., while it is not true. The semantics are the same as those
-    of while.'''
-  answer: ! '  answer: until'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  wrong_attempts: 0'
-  answer: ! '  correct_attempts: 0'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '- !ruby/object:Flashcard'
-  answer: ! '  question: Same as case.'
-  wrong_attempts: 0
-  correct_attempts: 0
-- !ruby/object:Flashcard
-  question: ! '  answer: when'
+  question: ! '  answer: ! ''  question: ! ''''  correct_attempts: 0'''''''
   answer: ! '  wrong_attempts: 0'
   wrong_attempts: 0
   correct_attempts: 0
@@ -612,13 +187,22 @@
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
-  question: ! '  question: Takes a condition argument, and executes the code that
-    follows (up to'
-  answer: ! '    a matching end delimiter) while the condition is true.'
+  question: ! '  question: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
-  question: ! '  answer: while'
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
   answer: ! '  wrong_attempts: 0'
   wrong_attempts: 0
   correct_attempts: 0
@@ -628,15 +212,4038 @@
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
-  question: ! '  question: Called from inside a method body, yields control to the
-    code block (if'
-  answer: ! '    any) supplied as part of the method call. If no code block has been
-    supplied,'
+  question: ! '  question: ! ''  question: ! ''''  question: Designates code that
+    must be run unconditionally'
+  answer: ! '    at the'''
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
-  question: ! '    calling yield raises an exception.'
-  answer: ! '  answer: yield'
+  question: ! '  answer: ! ''    beginning of the'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''    program before any other.'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  answer: BEGIN'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  question: Delimits a "begin" block
+    of code, which'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    can allow the use'''
+  answer: ! '  answer: ! ''    of while and'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''    until in modifier position with multi-line
+    statements.'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  answer: begin'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  question: Gives an unconditional
+    termination to a'
+  answer: ! '    code block, and'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''    is usually placed'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''    with an argument.'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  answer: break'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  question: starts a case statement;
+    this block of'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    code will output'''
+  answer: ! '  answer: ! ''    a result and end'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''    when it''''''''s terms are fulfilled,
+    which are defined'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    with when or else.'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  answer: case'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  question: Opens a class definition
+    block, which can'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    later be reopened'''
+  answer: ! '  answer: ! ''    and added'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''    to with variables and even functions.'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  answer: class'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  question: Used to define a function.'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''  answer: def'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  wrong_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''  question: A boolean logic function
+    that asks whether'
+  answer: ! '    or not a targeted'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''    expression'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''    refers to anything recognizable
+    in Ruby; i.e. literal'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    object, local'''
+  answer: ! '  answer: ! ''    variable that'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''    has been initialized, method name
+    visible from the'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    current scope,'''
+  answer: ! '  answer: ! ''    etc.'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  answer: defined?'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  question: Paired with end, this can
+    delimit a code'
+  answer: ! '    block, much like'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''    curly braces;'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''    however, curly braces retain higher
+    precedence.'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  answer: do'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  question: Gives an "otherwise" within
+    a function, if-statement,'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    or'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''    for-loop, i.e.'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''    if cats = cute, puts "Yay!" else puts
+    "Oh, a cat."'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  answer: else'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  question: Much like else, but has
+    a higher precedence,'
+  answer: ! '    and is usually'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''    paired with'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''    terms.'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  answer: elsif'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''  wrong_attempts: 4'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  question: Designates, via code block,
+    code to be executed'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    just prior'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''    to program'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''    termination.'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  answer: END'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  question: Marks the end of a while,
+    until, begin, if,'
+  answer: ! '    def, class,'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''    or other keyword-based,'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''    block-based construct.'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  answer: end'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  question: Marks the final, optional
+    clause of a begin/end'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    block,'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''    generally in cases'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''    where the block also contains a rescue
+    clause. The'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    code in this term''''''''s'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''    clause'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''    is guaranteed to be executed,
+    whether control flows'
+  answer: ! '    to a rescue'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''    block or not.'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''  answer: ensure'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  wrong_attempts: 3'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''  question: denotes a special object,
+    the sole instance'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    of FalseClass.'''
+  answer: ! '  answer: ! ''    false and nil'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''    are the only objects that evaluate
+    to Boolean falsehood'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    in Ruby'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''    (informally, that'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''    cause an if condition to fail.)'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  answer: ''''''''false'''''''''''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  question: A loop constructor; used
+    in for-loops.'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''  answer: for'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  wrong_attempts: 0'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''  question: Ruby''''''''s basic conditional
+    statement constructor.'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  answer: if'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  question: Used with for, helps
+    define a for-loop.'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''  answer: in'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  wrong_attempts: 4'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''  question: Opens a library, or module,
+    within a Ruby Stream.'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  answer: module'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  question: Bumps an iterator, or a while
+    or until block,'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    to the next'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''    iteration, unconditionally'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''    and without executing whatever may
+    remain of the block.'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  answer: next'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  question: A special "non-object";
+    it is, in fact, an'
+  answer: ! '    object (the'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''    sole instance of'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''    NilClass), but connotes absence and
+    indeterminacy.'
+  answer: ! '    nil and false'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''    are the only'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''    two objects in Ruby that have Boolean
+    falsehood'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    (informally, that'''
+  answer: ! '  answer: ! ''    cause an if'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''    condition to fail).'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  answer: nil'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  question: ! ''''''''Boolean negation.
+    i.e. not true #'
+  answer: ! '    false, not 10 # false,'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''    not false'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''    # true.'''''''''''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  answer: not'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  question: Boolean or. Differs from
+    || in that or'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    has lower precedence.'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''  answer: or'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  wrong_attempts: 4'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''  question: Causes unconditional re-execution
+    of a code'
+  answer: ! '    block, with the'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''    same parameter'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''    bindings as the current execution.'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''  answer: redo'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  wrong_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''  correct_attempts: 0'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''- !ruby/object:Flashcard'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''  question: Designates an exception-handling
+    clause that'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    can occur either'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''    inside a'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''    begin<code>/<code>end block,
+    inside a method definition'
+  answer: ! '    (which'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''    implies begin),'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''    or in modifier position (at the
+    end of a statement).'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  answer: rescue'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  question: Inside a rescue clause,
+    causes Ruby to'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    return to the top'''
+  answer: ! '  answer: ! ''    of the enclosing'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''    code (the begin keyword, or top of
+    method or block)'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    and try executing'''
+  answer: ! '  answer: ! ''    the code'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''    again.'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''  answer: retry'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  wrong_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''  correct_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''- !ruby/object:Flashcard'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''  question: Inside a method definition,
+    executes the'
+  answer: ! '    ensure clause, if'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''    present, and'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''    then returns control to the context
+    of the method'
+  answer: ! '    call. Takes an'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''    optional argument'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''    (defaulting to nil), which serves
+    as the return value'
+  answer: ! '    of the method.'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''    Multiple'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''    values in argument position will
+    be returned in'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    an array.'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''  answer: return'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  wrong_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''  question: The "current object" and
+    the default receiver'
+  answer: ! '    of messages'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''    (method calls)'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''    for which no explicit receiver
+    is specified. Which'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    object plays'''
+  answer: ! '  answer: ! ''    the role of self'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''    depends on the context.'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  answer: self'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  question: Called from a method,
+    searches along the'
+  answer: ! '    method lookup'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''    path (the classes'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''    and modules available to the current
+    object) for'
+  answer: ! '    the next method'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''    of the same name'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''    as the one being executed. Such
+    method, if present,'
+  answer: ! '    may be defined'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''    in the superclass'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''    of the object''''''''s class, but
+    may also be defined in'
+  answer: ! '    the superclass''''''''s'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''    superclass'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''    or any class on the upward path,
+    as well as any'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    module mixed in'''
+  answer: ! '  answer: ! ''    to any of those'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''    classes.'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  answer: super'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  question: Optional component of
+    conditional statements'
+  answer: ! '    (if, unless,'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''    when). Never'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''    mandatory, but allows for one-line
+    conditionals without'
+  answer: ! '    semi-colons.'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  answer: then'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  question: The sole instance of
+    the special class'
+  answer: ! '    TrueClass. true'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''    encapsulates Boolean'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''    truth; however, <emph>all</emph>
+    objects in Ruby'
+  answer: ! '    are true in the'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''    Boolean sense'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''    (informally, they cause an if test
+    to succeed), with'
+  answer: ! '    the exceptions'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''    of false and'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''    nil.'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 3'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  answer: ''''''''true'''''''''''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  question: Undefines a given method,
+    for the class or'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    module in which'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''    it''''''''s called.'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''    If the method is defined higher up
+    in the lookup path'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    (such as by'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''    a superclass),'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''    it can still be called by instances
+    classes higher'
+  answer: ! '    up.'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''  answer: undef'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''  wrong_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''  correct_attempts: 0'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''- !ruby/object:Flashcard'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''  question: The negative equivalent of
+    if. i.e. unless'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    y.score > 10 puts'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''    "Sorry; you'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''    needed 10 points to win." end.'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''  answer: unless'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  wrong_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''  question: ! ''''''''The inverse of
+    while: executes code until'
+  answer: ! '    a given condition'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''    is true,'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''    i.e., while it is not true. The
+    semantics are the'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    same as those'''
+  answer: ! '  answer: ! ''    of while.'''''''''''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''  answer: until'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  wrong_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''  correct_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  question: ! ''''- !ruby/object:Flashcard'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  answer: ! ''''  question: Same as case.'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  answer: when'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  question: Takes a condition argument,
+    and executes'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    the code that'''
+  answer: ! '  answer: ! ''    follows (up to'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''    a matching end delimiter) while the
+    condition is'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    true.'''''''
+  answer: ! '  answer: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  correct_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  question: ! ''''  answer: while'''''''
+  answer: ! '  answer: ! ''  answer: ! ''''  wrong_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''  correct_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''- !ruby/object:Flashcard'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  question: Called from inside a method
+    body, yields'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    control to the'''
+  answer: ! '  answer: ! ''    code block (if'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''    any) supplied as part of the method
+    call. If no code'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    block has been'''
+  answer: ! '  answer: ! ''    supplied,'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  wrong_attempts: 0'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  correct_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''- !ruby/object:Flashcard'''
+  answer: ! '  answer: ! ''  question: ! ''''    calling yield raises an exception.'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  answer: ! ''''  answer: yield'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  wrong_attempts: 0'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  correct_attempts: 0'''
+  answer: ! '  answer: ! ''- !ruby/object:Flashcard'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''  question: ! ''''  wrong_attempts: 0'''''''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ! ''  answer: ! ''''  correct_attempts: 0'''''''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''  wrong_attempts: 0'''
+  answer: ! '  answer: ! ''  correct_attempts: 0'''
   wrong_attempts: 0
   correct_attempts: 0
 - !ruby/object:Flashcard
