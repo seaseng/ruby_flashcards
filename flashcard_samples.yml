@@ -1,0 +1,646 @@
+---
+- !ruby/object:Flashcard
+  question: ! '---'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: To create a second name for the variable or method.'
+  answer: ! '  answer: alias'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: A command that appends two or more objects together.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: and'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Designates code that must be run unconditionally at the
+    beginning of the'
+  answer: ! '    program before any other.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: BEGIN'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Delimits a "begin" block of code, which can allow the use
+    of while and'
+  answer: ! '    until in modifier position with multi-line statements.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: begin'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Gives an unconditional termination to a code block, and
+    is usually placed'
+  answer: ! '    with an argument.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: break'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: starts a case statement; this block of code will output
+    a result and end'
+  answer: ! '    when it''s terms are fulfilled, which are defined with when or else.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: case'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Opens a class definition block, which can later be reopened
+    and added'
+  answer: ! '    to with variables and even functions.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: class'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Used to define a function.'
+  answer: ! '  answer: def'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: A boolean logic function that asks whether or not a targeted
+    expression'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    refers to anything recognizable in Ruby; i.e. literal object, local
+    variable that'
+  answer: ! '    has been initialized, method name visible from the current scope,
+    etc.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: defined?'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Paired with end, this can delimit a code block, much like
+    curly braces;'
+  answer: ! '    however, curly braces retain higher precedence.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: do'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Gives an "otherwise" within a function, if-statement, or
+    for-loop, i.e.'
+  answer: ! '    if cats = cute, puts "Yay!" else puts "Oh, a cat."'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: else'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Much like else, but has a higher precedence, and is usually
+    paired with'
+  answer: ! '    terms.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: elsif'
+  answer: ! '  wrong_attempts: 4'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Designates, via code block, code to be executed just prior
+    to program'
+  answer: ! '    termination.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: END'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Marks the end of a while, until, begin, if, def, class,
+    or other keyword-based,'
+  answer: ! '    block-based construct.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: end'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Marks the final, optional clause of a begin/end block,
+    generally in cases'
+  answer: ! '    where the block also contains a rescue clause. The code in this term''s
+    clause'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    is guaranteed to be executed, whether control flows to a rescue
+    block or not.'
+  answer: ! '  answer: ensure'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 3'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: denotes a special object, the sole instance of FalseClass.
+    false and nil'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    are the only objects that evaluate to Boolean falsehood in Ruby
+    (informally, that'
+  answer: ! '    cause an if condition to fail.)'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ''false'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: A loop constructor; used in for-loops.'
+  answer: ! '  answer: for'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: Ruby''s basic conditional statement constructor.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: if'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Used with for, helps define a for-loop.'
+  answer: ! '  answer: in'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 4'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: Opens a library, or module, within a Ruby Stream.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: module'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Bumps an iterator, or a while or until block, to the next
+    iteration, unconditionally'
+  answer: ! '    and without executing whatever may remain of the block.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: next'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: A special "non-object"; it is, in fact, an object (the
+    sole instance of'
+  answer: ! '    NilClass), but connotes absence and indeterminacy. nil and false
+    are the only'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    two objects in Ruby that have Boolean falsehood (informally, that
+    cause an if'
+  answer: ! '    condition to fail).'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: nil'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: ! ''Boolean negation. i.e. not true # false, not 10 # false,
+    not false'
+  answer: ! '    # true.'''
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: not'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Boolean or. Differs from || in that or has lower precedence.'
+  answer: ! '  answer: or'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 4'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: Causes unconditional re-execution of a code block, with the
+    same parameter'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    bindings as the current execution.'
+  answer: ! '  answer: redo'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: Designates an exception-handling clause that can occur either
+    inside a'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    begin<code>/<code>end block, inside a method definition (which
+    implies begin),'
+  answer: ! '    or in modifier position (at the end of a statement).'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: rescue'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Inside a rescue clause, causes Ruby to return to the top
+    of the enclosing'
+  answer: ! '    code (the begin keyword, or top of method or block) and try executing
+    the code'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    again.'
+  answer: ! '  answer: retry'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: Inside a method definition, executes the ensure clause, if
+    present, and'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    then returns control to the context of the method call. Takes an
+    optional argument'
+  answer: ! '    (defaulting to nil), which serves as the return value of the method.
+    Multiple'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    values in argument position will be returned in an array.'
+  answer: ! '  answer: return'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: The "current object" and the default receiver of messages
+    (method calls)'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    for which no explicit receiver is specified. Which object plays
+    the role of self'
+  answer: ! '    depends on the context.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: self'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Called from a method, searches along the method lookup
+    path (the classes'
+  answer: ! '    and modules available to the current object) for the next method
+    of the same name'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    as the one being executed. Such method, if present, may be defined
+    in the superclass'
+  answer: ! '    of the object''s class, but may also be defined in the superclass''s
+    superclass'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    or any class on the upward path, as well as any module mixed in
+    to any of those'
+  answer: ! '    classes.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: super'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Optional component of conditional statements (if, unless,
+    when). Never'
+  answer: ! '    mandatory, but allows for one-line conditionals without semi-colons.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: then'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: The sole instance of the special class TrueClass. true
+    encapsulates Boolean'
+  answer: ! '    truth; however, <emph>all</emph> objects in Ruby are true in the
+    Boolean sense'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    (informally, they cause an if test to succeed), with the exceptions
+    of false and'
+  answer: ! '    nil.'
+  wrong_attempts: 3
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: ''true'''
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Undefines a given method, for the class or module in which
+    it''s called.'
+  answer: ! '    If the method is defined higher up in the lookup path (such as by
+    a superclass),'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    it can still be called by instances classes higher up.'
+  answer: ! '  answer: undef'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: The negative equivalent of if. i.e. unless y.score > 10 puts
+    "Sorry; you'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    needed 10 points to win." end.'
+  answer: ! '  answer: unless'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: ! ''The inverse of while: executes code until a given condition
+    is true,'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    i.e., while it is not true. The semantics are the same as those
+    of while.'''
+  answer: ! '  answer: until'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '- !ruby/object:Flashcard'
+  answer: ! '  question: Same as case.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: when'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Takes a condition argument, and executes the code that
+    follows (up to'
+  answer: ! '    a matching end delimiter) while the condition is true.'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  answer: while'
+  answer: ! '  wrong_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  correct_attempts: 0'
+  answer: ! '- !ruby/object:Flashcard'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  question: Called from inside a method body, yields control to the
+    code block (if'
+  answer: ! '    any) supplied as part of the method call. If no code block has been
+    supplied,'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '    calling yield raises an exception.'
+  answer: ! '  answer: yield'
+  wrong_attempts: 0
+  correct_attempts: 0
+- !ruby/object:Flashcard
+  question: ! '  wrong_attempts: 0'
+  answer: ! '  correct_attempts: 0'
+  wrong_attempts: 0
+  correct_attempts: 0

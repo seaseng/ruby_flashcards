@@ -19,6 +19,7 @@ class FileManager
 
   def file_check
     if @file == "flashcard_samples.txt"
+      @file = 'flashcard_samples.yml' if File.exist?('flashcard_samples.yml')
       get_files
       seperate_input_array
       set_objects
@@ -33,7 +34,7 @@ class FileManager
 # end
 
   def save_yaml
-    return if @file == "flashcard_samples.txt"
+    @file = "flashcard_samples.yml" if @file == "flashcard_samples.txt"
     File.open(@file,"w") do |config|
       config.puts @flashcards.to_yaml   
     end
