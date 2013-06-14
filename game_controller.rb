@@ -17,39 +17,31 @@ class Game_controller
 
   def go_through_flashcard_deck
     flashcard_array.shuffle.each do |flashcard|
-      display_question(flashcard) 
+      flashcard.display_question
       puts "Answer: "
       user_answer = gets.chomp
       return if user_exit?(user_answer)
-      if check_answer(user_answer, flashcard) == true
+      if flashcard.check_answer(user_answer) == true
         puts "Correct!!! You're a decent human being."
         puts
-        increment_correct_attempts(flashcard) #method call
+        flashcard.increment_correct_attempts #method call
       else
         puts "Incorrect, you are not worthy of love."
         puts
-        increment_wrong_attempts(flashcard)
-        redo
+
+        flashcard.increment_wrong_attempts
+        puts "Number of attempts: #{flashcard.wrong_attempts}"
+        if flashcard.wrong_attempts > 3
+          puts "You're too dumb, moving on."
+          next #skips the rest of the loop and starts at beginning of loop (each)
+        else
+          redo #retries the current iteration of the loop
+        end
       end
     end
   end
 
-  def increment_wrong_attempts(flashcard)
-    flashcard.wrong_attempts = flashcard.wrong_attempts + 1
-  end
-
-  def increment_correct_attempts(flashcard)
-    flashcard.correct_attempts = flashcard.correct_attempts + 1
-  end
-
-  def display_question(flashcard)
-    puts "Question:"
-    puts flashcard.question
-  end
-
-  def check_answer(user_answer, flashcard)
-    user_answer == flashcard.answer
-  end
+  
 
   def user_exit?(user_answer)
     user_answer.downcase == 'quit' || user_answer.downcase == 'exit' || user_answer.downcase == "\n"
