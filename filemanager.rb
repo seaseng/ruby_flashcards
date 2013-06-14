@@ -7,7 +7,7 @@ class FileManager
     @pre_format_list  = []
     @flashcards       = []
     @file             = file
-    file_check
+    File.exist?('flashcard_samples.yml') ? get_yaml : file_check
     puts file
   end
 
@@ -19,16 +19,16 @@ class FileManager
 
   def file_check
     if @file == "flashcard_samples.txt"
-      @file = 'flashcard_samples.yml' if File.exist?('flashcard_samples.yml')
       get_files
       seperate_input_array
       set_objects
-    else 
-      get_yaml
+    # else 
+    #   get_yaml
     end
   end
 
   def get_yaml
+    @file = 'flashcard_samples.yml' if @file == "flashcard_samples.txt"
     @flashcards = YAML::load(File.open(@file,'r'))
   end
 # end
