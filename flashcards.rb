@@ -16,7 +16,22 @@ class Flashcard
     "Question: #{self.question}\nAnswer: #{self.answer}"
   end
 
-  
+  def increment_wrong_attempts
+    self.wrong_attempts = self.wrong_attempts + 1
+  end
+
+  def increment_correct_attempts
+    self.correct_attempts = self.correct_attempts + 1
+  end
+
+  def display_question
+    puts "Question:"
+    puts question
+  end
+
+  def check_answer (user_answer)
+    user_answer == answer
+  end
 end
 
 
