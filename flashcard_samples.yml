@@ -104,7 +104,7 @@
   question: Ruby's basic conditional statement constructor.
   answer: if
   wrong_attempts: 0
-  correct_attempts: 1
+  correct_attempts: 2
 - !ruby/object:Flashcard
   question: Used with for, helps define a for-loop.
   answer: in
