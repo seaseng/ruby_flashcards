@@ -1,6 +1,6 @@
 require_relative 'flashcards.rb'
 
-class Filemanager
+class FileManager
   attr_reader :flashcards
   def initialize
     @questions  = []

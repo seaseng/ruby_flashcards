@@ -1,5 +1,6 @@
 require_relative 'flashcards'
 require_relative 'filemanager'
+require 'cowsay'
 
 class Game_controller
 
@@ -10,15 +11,20 @@ class Game_controller
 
   def run_game!
 
-    flashcard_array.each do |flashcard|
+    puts "Welcome to Ruby Flashcards.  Remember you're not smart."
+    puts "Enter 'exit' or 'quit' to terminate program at anytime."
+    puts
+    flashcard_array.shuffle.each do |flashcard|
       display_question(flashcard) 
       puts "Answer: "
       user_answer = gets.chomp
       return if user_exit?(user_answer)
       if check_answer(user_answer, flashcard) == true
         puts "Correct!!! You're a decent human being."
+        puts
       else
         puts "Incorrect, you are not worthy of love."
+        puts
         redo
       end
     end
@@ -26,7 +32,7 @@ class Game_controller
   end
 
   def display_question(flashcard)
-    puts "Question"
+    puts "Question:"
     puts flashcard.question
   end
 
